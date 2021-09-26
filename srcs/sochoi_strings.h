@@ -19,6 +19,7 @@
 int		ss_atoi(char *str);
 int		ss_strlen(char *str);
 char	**ss_split(char *s, char c);
+char	*ss_substr(char *s, int l, int r);
 bool	ss_isnum(char c);
 bool	ss_isnumber(char *str);
 bool	ss_if_overflow(char *str);
