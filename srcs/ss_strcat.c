@@ -21,7 +21,7 @@ char	*ss_join(char *s1, char *s2, char c)
 
 	l1 = ss_strlen(s1);
 	l2 = ss_strlen(s2);
-	res = (char *)malloc(l1 + l2 + 2);
+	res = (char *)malloc(sizeof(char) * (l1 + l2 + 2));
 	if (!res)
 		return (NULL);
 	i = 0;
@@ -49,7 +49,7 @@ char	*ss_strcat(char *s1, char *s2)
 
 	l1 = ss_strlen(s1);
 	l2 = ss_strlen(s2);
-	res = (char *)malloc(l1 + l2 + 1);
+	res = (char *)malloc(sizeof(char) * (l1 + l2 + 1));
 	if (!res)
 		return (NULL);
 	i = 0;

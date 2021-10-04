@@ -19,7 +19,8 @@ SRCS	=	srcs/ss_isnum.c \
 			srcs/ss_print.c \
 			srcs/ss_compares.c \
 			srcs/ss_strcat.c \
-			srcs/ss_find.c
+			srcs/ss_find.c \
+			srcs/ss_strdup.c
 
 OBJ		=	$(SRCS:.c=.o)
 NAME	=	sochoi_strings.a

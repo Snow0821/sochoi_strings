@@ -22,6 +22,7 @@ int		ss_find(char *str, char c);
 int		ss_atoi(char *str);
 char	**ss_split(char *s, char c);
 char	*ss_substr(char *s, int l, int r);
+char	*ss_strdup(char *s);
 char	*ss_strcat(char *s1, char *s2);
 char	*ss_join(char *s1, char *s2, char c);
 bool	ss_isnum(char c);
