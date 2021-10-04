@@ -30,5 +30,8 @@ void	ss_print_strs(char **strs)
 		return ;
 	i = 0;
 	while (strs[i])
+	{
 		ss_print_str(strs[i++]);
+		write(1, "\n", 1);
+	}
 }
