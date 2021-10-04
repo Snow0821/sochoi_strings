@@ -25,7 +25,6 @@ void	ss_print_str(char *str)
 
 void	ss_print_strs(char **strs)
 {
-	char	*str;
 	int		i;
 
 	if (!strs)
