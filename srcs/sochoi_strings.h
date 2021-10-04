@@ -15,6 +15,7 @@
 # include <stdbool.h>
 # include <stdlib.h>
 # include <limits.h>
+# include <unistd.h>
 
 int		ss_atoi(char *str);
 int		ss_strlen(char *str);

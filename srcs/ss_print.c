@@ -15,7 +15,6 @@
 void	ss_print_str(char *str)
 {
 	int	len;
-	int	i;
 
 	if (!str)
 		return ;
