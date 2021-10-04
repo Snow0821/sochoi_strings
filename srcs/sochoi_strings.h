@@ -18,8 +18,8 @@
 # include <unistd.h>
 
 int		ss_strlen(char *str);
+int		ss_find(char *str, char c);
 int		ss_atoi(char *str);
-int		ss_strlen(char *str);
 char	**ss_split(char *s, char c);
 char	*ss_substr(char *s, int l, int r);
 char	*ss_strcat(char *s1, char *s2);
