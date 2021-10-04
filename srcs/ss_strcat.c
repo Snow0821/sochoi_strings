@@ -33,7 +33,7 @@ char	*ss_join(char *s1, char *s2, char c)
 	res[i++] = c;
 	while (i < l1 + l2 + 1)
 	{
-		res[i] = s2[i - l1];
+		res[i] = s2[i - l1 - 1];
 		i++;
 	}
 	res[i] = 0;
