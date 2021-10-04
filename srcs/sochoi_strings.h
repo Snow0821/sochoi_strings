@@ -24,6 +24,8 @@ bool	ss_isnum(char c);
 bool	ss_isnumber(char *str);
 bool	ss_if_overflow(char *str);
 void	ss_free_strs(char **strs);
+void	ss_print_str(char *str);
+void	ss_print_strs(char **strs);
 int		ss_strlen(char *str);
 bool	ss_int_match_str(char *str, int n);
 #endif
