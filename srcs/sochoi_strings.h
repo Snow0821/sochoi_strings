@@ -24,6 +24,7 @@ char	*ss_substr(char *s, int l, int r);
 bool	ss_isnum(char c);
 bool	ss_isnumber(char *str);
 bool	ss_if_overflow(char *str);
+bool	ss_strlcmp(char *s1, char *s2, int l);
 void	ss_free_strs(char **strs);
 void	ss_print_str(char *str);
 void	ss_print_strs(char **strs);
