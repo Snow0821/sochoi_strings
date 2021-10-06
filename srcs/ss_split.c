@@ -67,6 +67,8 @@ static int	count(char *s, char c)
 				res++;
 		prev = s[i++];
 	}
+	if (res == 0)
+		return (1);
 	return (res);
 }
 
