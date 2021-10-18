@@ -27,5 +27,5 @@ char	*ss_strdup(char *str)
 		i++;
 	}
 	res[i] = 0;
-	return (res);	
+	return (res);
 }

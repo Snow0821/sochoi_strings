@@ -12,7 +12,7 @@
 
 #include "sochoi_strings.h"
 
-int		ss_find(char *str, char c)
+int	ss_find(char *str, char c)
 {
 	int		i;
 
